@@ -1,0 +1,184 @@
+/* General Styles */
+.max-w-4xl {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .shadow-lg {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .rounded-lg {
+    border-radius: 12px;
+  }
+  .p-6 {
+    padding: 24px;
+  }
+  .bg-gray-50 {
+    background-color: #f9fafb;
+  }
+  .space-y-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .space-x-4 {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Form Items */
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .ant-input, .ant-auto-complete, .ant-checkbox-group {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 12px;
+  }
+  
+  /* AutoComplete Input */
+  .ant-input {
+    padding-left: 40px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .ant-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+  }
+  
+  /* Button Styles */
+  .bg-blue-500 {
+    background-color: #2563eb;
+  }
+  
+  .bg-blue-600 {
+    background-color: #1d4ed8;
+  }
+  
+  .bg-green-500 {
+    background-color: #10b981;
+  }
+  
+  .bg-green-600 {
+    background-color: #059669;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .transition {
+    transition: all 0.3s ease;
+  }
+  
+  .hover\\:bg-blue-600:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .hover\\:bg-green-600:hover {
+    background-color: #059669;
+  }
+  
+  .hover\\:bg-gray-400:hover {
+    background-color: #9ca3af;
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .rounded-md {
+    border-radius: 6px;
+  }
+  
+  .ant-btn {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 1rem;
+  }
+  
+  /* Modal and Confirmation Styles */
+  .ant-modal {
+    border-radius: 12px;
+    padding: 24px;
+  }
+  
+  .ant-modal-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .text-gray-700 {
+    color: #374151;
+  }
+  
+  .text-gray-800 {
+    color: #1f2937;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  
+  /* Checkbox Group */
+  .max-h-60 {
+    max-height: 15rem;
+  }
+  
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .border-gray-200 {
+    border-color: #e5e7eb;
+  }
+  
+  .space-y-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+
+  .qualification-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .ant-checkbox-group {
+    width: 100%;
+  }
+  
+  .ant-checkbox-group-item {
+    width: calc(25% - 1rem); /* 25% width for 4 columns with 1rem gap */
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .ant-form-item {
+      width: 100%;
+    }
+  }
+

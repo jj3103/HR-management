@@ -1,0 +1,17 @@
+/* PersonnelForm.css */
+.personnel-form {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 950px;
+  margin: auto;
+  background: #fff;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.add-p-txt{
+  text-align: center;
+}

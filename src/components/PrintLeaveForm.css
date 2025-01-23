@@ -1,0 +1,6 @@
+/* src/components/PrintLeaveForm.css */
+@media print {
+    .print-button {
+        display: none;
+    }
+}

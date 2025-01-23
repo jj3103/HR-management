@@ -1,0 +1,95 @@
+.user-table-container {
+  padding: 20px;
+  background-color: #f7f9fc; /* Light background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.status-tabs {
+  display: flex;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.tab-button.active {
+  color: #1890ff; /* Active tab color */
+  border-bottom-color: #1890ff; /* Active tab underline */
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%; /* Circular avatar */
+}
+
+.status {
+  font-weight: bold;
+}
+
+/* Status colors */
+.status.hired {
+  color: green;
+}
+
+.status.interview {
+  color: blue;
+}
+
+.status.in-review {
+  color: red;
+}
+
+/* Ant Design overrides */
+.ant-table {
+  border-radius: 8px; /* Rounded table corners */
+}
+
+.ant-table-thead > tr > th {
+  background-color: #f8f8f8; /* Light gray header */
+  font-weight: bold;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 16px 16px; /* Cell padding */
+}
+
+/* Row hover effect */
+.ant-table-tbody > tr:hover {
+  background-color: #e6f7ff; /* Light blue background on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.ant-table-tbody > tr {
+  cursor: pointer; /* Pointer cursor for rows */
+}
+
+/* Pagination styles */
+.ant-table-pagination {
+  margin: 16px 0; /* Margin around pagination */
+}
+
+/* General button styles */
+.ant-btn {
+  border-radius: 4px; /* Rounded button corners */
+}
+
+/* Input styles */
+.ant-input {
+  border-radius: 4px; /* Rounded input corners */
+}

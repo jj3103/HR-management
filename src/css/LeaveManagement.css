@@ -1,0 +1,119 @@
+/* Container for the entire component */
+.leave-management-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Form styling */
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  /* Select and InputNumber width */
+  .ant-select, .ant-input-number {
+    width: 200px;
+  }
+  
+  /* Styling for action buttons */
+  .action-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-buttons .ant-btn {
+    margin-right: 8px;
+  }
+  
+  /* Add some spacing between the form and the table */
+  .ant-table {
+    margin-top: 20px;
+  }
+  
+  /* Styling for the table */
+  .ant-table-thead > tr > th {
+    background-color: #e6f7ff;
+  }
+  
+  .ant-table-tbody > tr:nth-child(odd) {
+    background-color: #fafafa;
+  }
+  
+  .ant-table-tbody > tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .ant-table-tbody > tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+  /* Spinner styling */
+  .ant-spin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Popconfirm styling */
+  .ant-popover {
+    max-width: 280px;
+    z-index: 1050; /* Ensure it appears above other content */
+  }
+  
+  .ant-popover-inner {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+  }
+  
+  .ant-popover-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .ant-popover-inner-content {
+    color: #595959;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .ant-popover-arrow {
+    border-color: #d9d9d9;
+    background-color: #ffffff;
+  }
+  
+  .ant-popover-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+  }
+  
+  .ant-popover-buttons .ant-btn {
+    margin-left: 8px;
+  }
+  
+  .ant-popover-buttons .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .ant-popover-buttons .ant-btn-primary:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  .ant-popover-buttons .ant-btn-danger {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+  }
+  
+  .ant-popover-buttons .ant-btn-danger:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+  

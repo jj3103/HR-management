@@ -1,0 +1,75 @@
+.promotion-requirement-form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .promotion-requirement-form.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .promotion-requirement-form label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .promotion-requirement-form.form-control {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .promotion-requirement-form.form-control:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .promotion-requirement-form select {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .promotion-requirement-form select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .promotion-requirement-form.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .promotion-requirement-form.btn-primary:hover {
+    background-color: #23527c;
+    border-color: #1d4e7a;
+  }
+  
+  .promotion-requirement-form.btn-primary:active {
+    background-color: #1d4e7a;
+    border-color: #1d4e7a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  

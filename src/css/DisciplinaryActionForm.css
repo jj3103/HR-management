@@ -1,0 +1,29 @@
+
+.ant-form-item-label > label {
+    font-size: 16px; 
+}
+
+.ant-input, .ant-select-selector, .ant-input-textarea, .ant-picker {
+    font-size: 16px; 
+}
+
+.ant-radio-wrapper {
+    font-size: 16px; 
+}
+
+
+.ant-input-search {
+    font-size: 16px; 
+}
+
+.ant-input-search-button {
+    font-size: 16px; 
+}
+
+.ant-card {
+    font-size: 16px; 
+}
+
+.ant-btn-primary {
+    font-size: 16px; 
+}

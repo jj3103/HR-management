@@ -1,0 +1,21 @@
+/* PersonnelPromotionRequirementForm.css */
+
+.promotion-requirement-form-container {
+    padding: 20px;
+}
+
+.ant-form-item-label > label {
+    font-size: 16px; /* Increase label font size */
+}
+
+.ant-select, .ant-input, .ant-input-textarea {
+    font-size: 16px; /* Increase input font size */
+}
+
+.ant-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Card shadow for better visual appeal */
+}
+
+.ant-btn-primary {
+    font-size: 16px; /* Increase button font size */
+}

@@ -1,0 +1,76 @@
+/* Leave Table component styles */
+
+.LeaveTable {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  .LeaveTable .Tabs {
+    margin-bottom: 20px;
+  }
+  
+  .LeaveTable .Tab {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .LeaveTable .Tab.active {
+    background-color: #337ab7; /* army blue */
+    color: #fff;
+    border-bottom: 1px solid #337ab7;
+  }
+  
+  .LeaveTable .Table {
+    margin-bottom: 20px;
+  }
+  
+  .LeaveTable .Table th,
+  .LeaveTable .Table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .LeaveTable .Table th {
+    background-color: #337ab7; /* army blue */
+    color: #fff;
+  }
+  
+  .LeaveTable .Table td {
+    background-color: #fff;
+  }
+  
+  .LeaveTable .Table tr:nth-child(even) {
+    background-color: #f9f9f9; /* light gray background */
+  }
+  
+  /* Army theme accents */
+  
+  .LeaveTable .army-accent {
+    color: #337ab7; /* army blue */
+  }
+  
+  .LeaveTable .army-accent:hover {
+    color: #23527c; /* darker army blue */
+  }
+  
+  .LeaveTable .army-badge {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .LeaveTable .army-badge:hover {
+    background-color: #23527c;
+  }
+  
+  .ant-table-thead {
+    background: #2196F3 !important;
+  }

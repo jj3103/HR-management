@@ -1,0 +1,124 @@
+.DisciplinaryTable {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  .DisciplinaryTable h2 {
+    margin-top: 5rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .DisciplinaryTable.Tabs {
+    margin-bottom: 20px;
+  }
+  
+  .DisciplinaryTable.Tab {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .DisciplinaryTable.Tab.active {
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #337ab7;
+  }
+  
+  .DisciplinaryTable.Table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .DisciplinaryTable.Table th,.DisciplinaryTable.Table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .DisciplinaryTable.Table th {
+    background-color: #f0f0f0;
+  }
+  
+  .DisciplinaryTable.Modal {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .DisciplinaryTable.Modal-header {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .DisciplinaryTable.Modal-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .DisciplinaryTable.Modal-body {
+    padding: 20px;
+  }
+  
+  .DisciplinaryTable.Form {
+    margin-bottom: 20px;
+  }
+  
+  .DisciplinaryTable.Form-group {
+    margin-bottom: 10px;
+  }
+  
+  .DisciplinaryTable.Form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .DisciplinaryTable.Form-control {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .DisciplinaryTable.Form-control:focus {
+    border-color: #337ab7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .DisciplinaryTable.Button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .DisciplinaryTable.Button:hover {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .DisciplinaryTable.Button:active {
+    background-color: #23527c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Add a white container with hover effect */
+  .DisciplinaryTable.Form-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .DisciplinaryTable.Form-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }

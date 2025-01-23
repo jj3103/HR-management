@@ -1,0 +1,125 @@
+/* PostingForm.css */
+.posting-form-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.posting-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-autocomplete,
+.input-field,
+.date-picker,
+.textarea,
+.select-field {
+  width: 100%;
+}
+
+.input-field,
+.textarea {
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+
+.date-picker,
+.select-field {
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Aligning form items */
+.ant-row {
+  margin-bottom: 16px;
+}
+
+.ant-col {
+  padding: 0 8px;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.ant-form-item-label > label {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-family: sans-serif; /* Replace with your desired font family */
+}
+
+.ant-form-item-control-input,
+.ant-input,
+.ant-select-selection-item,
+.ant-btn {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-family: sans-serif; /* Replace with your desired font family */
+}
+
+.ant-form-item .ant-form-item-explain {
+  font-size: 14px; /* Adjust the font size for error messages */
+  font-family: sans-serif; /* Replace with your desired font family */
+}
+
+.ant-form-item .ant-form-item-extra {
+  font-size: 16px; /* Adjust the font size for extra help text */
+  font-family: sans-serif; /* Replace with your desired font family */
+}
+
+.ant-btn {
+  font-size: 16px; /* Adjust the font size for buttons */
+  font-family: sans-serif; /* Replace with your desired font family */
+}
+
+.ant-select-selection-placeholder {
+  padding: 30px !important;
+}
+.add-course-form {
+  padding: 20px;
+  font-size: 16px; /* Set the base font size for the form */
+}
+
+.add-course-form .ant-form-item-label > label {
+  font-size: 16px; /* Increase label font size */
+}
+
+.add-course-form .ant-input,
+.add-course-form .ant-input:hover,
+.add-course-form .ant-input:focus {
+  font-size: 16px; /* Increase input field font size */
+}
+
+.add-course-form .ant-select-selector {
+  font-size: 16px; /* Increase select dropdown font size */
+}
+
+.add-course-form .ant-btn {
+  font-size: 16px; /* Increase button font size */
+}
+
+/* Responsive layout for different screen sizes */
+@media (max-width: 768px) {
+  .ant-col {
+    padding: 0;
+  }
+}

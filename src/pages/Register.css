@@ -1,0 +1,89 @@
+/* Register.css */
+
+/* Import Bootstrap CSS from CDN */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF; /* White */
+}
+
+/* Container styles */
+.mt-5 {
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 600px; /* Increased width */
+  width: 80%; /* Adjusted width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #021331; /* Navy blue */
+  border: 1px solid #CCCCCC;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.container:hover {
+  background-color: #03055B; /* Darker navy blue on hover */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Form styles */
+h2 {
+  color: #FFFFFF; /* White */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  color: #FFFFFF; /* White */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF; /* White */
+}
+
+form button[type="submit"] {
+  background-color: #021331; /* Navy blue */
+  color: #FFFFFF; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #03055B; /* Darker navy blue on hover */
+  color: #FFFFFF; /* White */
+}
+
+/* Toast styles */
+.ToastContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.toast {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #021331; /* Navy blue */
+  color: #FFFFFF; /* White */
+}
+
+.toast:hover {
+  background-color: #03055B; /* Darker navy blue on hover */
+}

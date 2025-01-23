@@ -1,0 +1,134 @@
+/* Container Styling */
+.container-fluid {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+/* Heading Styling */
+h1 {
+    color: #3A3A3A;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Tab Styling */
+.nav-tabs {
+    border-bottom: 2px solid #E5E7EB;
+}
+
+.nav-tabs .nav-link {
+    color: #6B7280;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #1F2937;
+    background-color: #FFFFFF;
+    border: 2px solid #E5E7EB;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Table Container Styling */
+.table-responsive {
+    max-height: 600px; /* Adjust height as needed */
+    overflow-y: auto; /* Vertical scrollbar */
+    margin-top: 10px;
+}
+
+/* Table Styling */
+.table-custom {
+    background-color: #FFFFFF;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    width: 100%; /* Ensure table takes full width */
+    border-collapse: collapse; /* Collapse borders for consistency */
+}
+
+/* Column Header Styling */
+.table-custom th {
+    background-color: #F9FAFB;
+    color: #3A3A3A;
+    font-weight: 600;
+    padding: 12px 15px;
+    border-bottom: 2px solid #E5E7EB;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky; /* Make header stick on scroll */
+    top: 0; /* Stick to the top */
+    z-index: 1; /* Ensure header stays above the table rows */
+}
+
+/* Table Cell Styling */
+.table-custom td {
+    color: #3A3A3A;
+    padding: 10px 15px;
+    border-bottom: none; /* Remove bottom border */
+}
+
+/* Scrollbar Styles */
+.table-responsive::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #6c757d; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background-color: #f1f3f5; /* Color of the scrollbar track */
+}
+
+/* Three Dots Menu Styling */
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.dropdown-item {
+    color: #3A3A3A;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item:hover {
+    background-color: #F3F4F6;
+}
+
+.dropdown-item svg {
+    margin-right: 8px;
+}
+
+/* Copy Icon Styling */
+.copy-icon {
+    cursor: pointer;
+    color: #6B7280;
+    margin-left: 5px;
+}
+
+.copy-icon:hover {
+    color: #3A3A3A;
+}
+
+/* Action Button Styling */
+.btn-primary {
+    background-color: #6366F1;
+    border-color: #6366F1;
+}
+
+.btn-primary:hover {
+    background-color: #4F46E5;
+    border-color: #4F46E5;
+}

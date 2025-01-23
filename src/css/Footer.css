@@ -1,0 +1,27 @@
+footer {
+    background-color: #023969; /* dark gray background */
+    color: #fff; /* white text color */
+    padding: 20px; /* add some padding */
+    margin-top: 50px; /* add some margin top */
+    text-align: center; /* center the text */
+  }
+  
+  footer p {
+    margin-bottom: 0; /* remove margin bottom */
+    font-size: 14px; /* adjust font size */
+  }
+  
+  footer .text {
+    font-size: 16px; /* smaller font size for the copyright text */
+    color: #333;
+  }
+  
+  footer a {
+    color: #fff; /* white text color for links */
+    text-decoration: none; /* remove underline */
+  }
+  
+  footer a:hover {
+    color: #ccc; /* light gray text color on hover */
+  }
+  

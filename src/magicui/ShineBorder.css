@@ -1,0 +1,32 @@
+.shine-border {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff; /* Background color of the container */
+}
+
+.shine-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, var(--border-colors));
+    background-size: 400% 400%;
+    border-radius: inherit;
+    z-index: -1;
+    animation: shine 15s ease infinite;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

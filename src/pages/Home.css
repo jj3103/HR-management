@@ -1,0 +1,72 @@
+.home-page {
+  display: flex;
+  flex-direction: column; /* Stack welcome card and to-do card above the others */
+  padding: 20px;
+  background-color: #F7F7F7; /* Light gray */
+}
+
+.welcome-card,
+.todo-card {
+  flex: 1 1 100%; /* Full width */
+  margin: 20px 0; /* Margin on top and bottom only */
+  background-color: #FFFFFF; /* White */
+  border: 1px solid #CCCCCC; /* Gray */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.personnel-card,
+.news-card,
+.calendar-card {
+  flex: 1 1 300px; /* Allow cards to grow and shrink, with a base width of 300px */
+  margin: 20px;
+  background-color: #FFFFFF; /* White */
+  border: 1px solid #CCCCCC; /* Gray */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-card .card-header,
+.todo-card .card-header,
+.personnel-card .card-header,
+.news-card .card-header,
+.calendar-card .card-header {
+  background-color: #023969; /* Dark navy blue */
+  color: #FFFFFF; /* White */
+  padding: 10px;
+  border-bottom: 1px solid #CCCCCC; /* Gray */
+}
+
+.welcome-card .card-body,
+.todo-card .card-body,
+.personnel-card .list-group,
+.news-card .list-group,
+.calendar-card .list-group {
+  padding: 20px;
+}
+
+.personnel-card .list-group-item,
+.todo-card .list-group-item,
+.news-card .list-group-item,
+.calendar-card .list-group-item {
+  padding: 10px;
+  border-bottom: 1px solid #CCCCCC; /* Gray */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button[type="button"] {
+  background-color: #FFC107; /* Yellow */
+  color: #FFFFFF; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: white;
+  color: #021331 !important;
+}
