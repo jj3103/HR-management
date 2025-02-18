@@ -21,7 +21,7 @@ This HR Management System is designed for managing personnel details, roles, not
 
 ## 🖼️ Screenshots
 
-[](/public/images/HR-1.png)
+![HR-1](/public/images/HR-1.png)
 [](/public/images/HR-2.png)
 [](/public/images/HR-3.png)
 [](/public/images/HR-4.png)
